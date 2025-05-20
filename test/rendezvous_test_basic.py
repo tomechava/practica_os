@@ -20,5 +20,3 @@ class TestProdConsTestBasic(unittest.TestCase):
         rendezvous = rendezvous_imprt.RendezvousDEchange()
         self.assertNotEqual(rendezvous, None)
         
-if __name__ == '__main__':
-    unittest.main()
