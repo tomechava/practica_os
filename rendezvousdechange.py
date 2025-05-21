@@ -12,7 +12,7 @@ class RendezvousDEchange(Generic[E,T]):
         self.first_value = None
         self.second_value = None
 
-    def changer(self, value: E) -> T:
+    def echanger(self, value: E) -> T:
         with self.condition:
             if not self.first_arrived:
                 self.first_value = value
