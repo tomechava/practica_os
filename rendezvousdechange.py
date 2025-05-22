@@ -20,7 +20,7 @@ class RendezvousDEchange(Generic[E,T]):
                 self.condition.wait()
                 result = self.second_value
 
-                self.first_arrived = True
+                self.first_arrived = False
                 self.first_value = None
                 self.second_value = None
 
